@@ -1,21 +1,19 @@
 <template>
-    <div>
+    <div class="min-h-screen flex flex-col">
         <Navbar />
-      <h1>Welcome to My Website</h1>
-      <p>This is the home page.</p>
+        <div class="flex-grow">
+            <h1>Welcome to My Website</h1>
+            <p>This is the home page content.</p>
+        </div>
+        <Footer />
     </div>
-  </template>
+</template>
   
-  <script>
-import Navbar from '../components/navbar.vue';
+<script>
 
-  export default {
-    name: 'HomePage',
-    components: { Navbar }
-};
-  </script>
+
+</script>
   
-  <style scoped>
-  /* Add your styles here */
-  </style>
+<style scoped>
+</style>
   

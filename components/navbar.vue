@@ -20,10 +20,10 @@
       <div :class="isMenuOpen ? 'block' : 'hidden'" class="md:flex md:items-center md:w-auto w-full">
         <nav>
           <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-            <li><nuxt-link to="/" class="md:p-4 py-3 px-0 block">Home</nuxt-link></li>
-            <li><nuxt-link to="/about" class="md:p-4 py-3 px-0 block">About Us</nuxt-link></li>
-            <li><nuxt-link to="/gallery" class="md:p-4 py-3 px-0 block">Gallery</nuxt-link></li>
-            <li><nuxt-link to="/contact" class="md:p-4 py-3 px-0 block md:mb-0 mb-2">Contact Us</nuxt-link></li>
+            <li><NuxtLink to="/" class="md:p-4 py-3 px-0 block">Home</NuxtLink></li>
+            <li><NuxtLink to="/about" class="md:p-4 py-3 px-0 block">About Us</NuxtLink></li>
+            <li><NuxtLink to="/gallery" class="md:p-4 py-3 px-0 block">Gallery</NuxtLink></li>
+            <li><NuxtLink to="/contact" class="md:p-4 py-3 px-0 block md:mb-0 mb-2">Contact Us</NuxtLink></li>
           </ul>
         </nav>
       </div>
@@ -46,5 +46,8 @@
 </script>
   
 <style scoped>
+.router-link-exact-active{
+    color: indianred;
+}
 </style>
   
