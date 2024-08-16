@@ -2,8 +2,8 @@
     <div class="min-h-screen flex flex-col">
         <Navbar />
         <div class="flex-grow">
-            <h1>Welcome to My Website</h1>
-            <p>This is the home page content.</p>
+            <h1>Welcome to our website</h1>
+            <p>Content.</p>
         </div>
         <Footer />
     </div>

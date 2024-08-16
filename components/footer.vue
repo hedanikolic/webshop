@@ -2,7 +2,7 @@
     <footer class="text-white py-1">
       <div class="container mx-auto flex flex-wrap justify-between">
 
-        <!-- Company information -->
+        <!-- Company info -->
         <div class="w-full md:w-1/3 mb-4 mt-8 text-center">
           <h4 class="font-bold text-lg mb-3">Ear Curations</h4>
           <p class="text-sm">Quality home services since 2020</p>
@@ -22,7 +22,6 @@
         </div>
       </div>
   
-      <!-- Bottom text -->
       <div class="container mx-auto text-center mt-4">
         <p class="text-sm">&copy; 2024 Ear Curations. All rights reserved.</p>
       </div>
