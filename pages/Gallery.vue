@@ -7,10 +7,10 @@
         <div class="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 py-6 px-2 md:px-48">
 
     <div class="bg-gray-200 p-2 md:p-4 rounded shadow">
-      <Gallery_card :imageFolder="carousel2" />
+      <Gallery_card :imageFolder="'carousel2'" />
     </div>
 
-    <div class="bg-gray-200 p-2 md:p-4 rounded shadow">
+    <!--<div class="bg-gray-200 p-2 md:p-4 rounded shadow">
         <Gallery_card :imageFolder="carousel2" />
     </div>
 
@@ -40,7 +40,7 @@
 
     <div class="bg-gray-200 p-2 md:p-4 rounded shadow">
         <Gallery_card :imageFolder="carousel9" />
-    </div>
+    </div> -->
 
   </div>
       <Footer />
@@ -48,8 +48,7 @@
   </template>
   
   <script>
-
-
+   
   </script>
   
   <style scoped>

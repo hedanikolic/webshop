@@ -3,7 +3,7 @@
         <Navbar />
         <div class="flex-grow">
             <h1>Welcome to our website</h1>
-            <p>Content.</p>
+            <p class="text">Content.</p>
         </div>
         <Footer />
     </div>
@@ -15,5 +15,6 @@
 </script>
   
 <style scoped>
+
 </style>
   

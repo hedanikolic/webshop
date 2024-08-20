@@ -9,3 +9,14 @@ body{
 footer{
     background-color:dimgray;
 }
+
+.router-link-exact-active{
+    color: indianred;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
