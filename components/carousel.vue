@@ -2,13 +2,13 @@
     <div class="carousel relative w-full max-w-md mx-auto overflow-hidden rounded-lg">
       <div class="slides flex transition-transform duration-500 ease-in-out" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
         <div class="slide flex-shrink-0 w-full">
-            <img :src="`assets/${carouselFolder}/image1.jpg`" class="w-full object-contain" alt="Before" />
+            <img :src="`../_nuxt/assets/${carouselFolder}/image1.jpg`" class="w-full object-contain" alt="Before" />
         </div>
         <div class="slide flex-shrink-0 w-full">
-            <img :src="`assets/${carouselFolder}/image2.jpg`" class="w-full object-contain" alt="Sketch" />
+            <img :src="`../_nuxt/assets/${carouselFolder}/image2.jpg`" class="w-full object-contain" alt="Sketch" />
         </div>
         <div class="slide flex-shrink-0 w-full">
-            <img :src="`assets/${carouselFolder}/image3.jpg`" class="w-full object-contain" alt="After" />
+            <img :src="`../_nuxt/assets/${carouselFolder}/image3.jpg`" class="w-full object-contain" alt="After" />
         </div>
       </div>
       <h2 class="mt-4 text-lg font-semibold text-center">Title</h2>
