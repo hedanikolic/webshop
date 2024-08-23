@@ -58,10 +58,26 @@
                 </form>
               </div>
               <!-- Right column content -->
-              <div class="bg-gray-100 md:col-span-1 p-4 rounded shadow">
-                <h2 class="font-semibold text-lg">Contact Information</h2>
-                <p class="text-sm text-gray-600">Have any questions for us?</p>
-                
+              <div class="bg-gray-100 md:col-span-1 p-4 rounded shadow text-center">
+                <h2 class="font-semibold text-xl mt-8 mb-16">Contact information</h2>
+                <div class="flex flex-col justify-center">
+                  <p class="text-md px-4">Have any questions for us?</p>
+                  <p class="text-md px-4 pb-2">Send them our way through e-mail or give us a call during our working hours!</p>
+                  <div class="flex flex-col justify-between p-4">
+                    <div class="flex flex-row items-center p-4">
+                      <img src="~/assets/mail.png" alt="Mail" style="height: 20px; width: 20px;" />
+                      <span class="ml-4">earcurations@gmail.com</span>
+                    </div>
+                    <div class="flex flex-row items-center p-4">
+                      <img src="~/assets/phone.png" alt="Phone" style="height: 20px; width: 20px;" />
+                      <span class="ml-4">+123 456 789</span>
+                    </div>
+                    <div class="flex flex-row items-center p-4">
+                      <img src="~/assets/clock.png" alt="Hours" style="height: 20px; width: 20px;" />
+                      <span class="ml-4">Mon - Fri: 8:00 - 16:00</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
