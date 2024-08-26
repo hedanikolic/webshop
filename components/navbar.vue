@@ -21,8 +21,8 @@
         <nav>
           <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
             <li><NuxtLink to="/" class="md:p-4 py-3 px-0 block">Home</NuxtLink></li>
-            <li><NuxtLink to="/about" class="md:p-4 py-3 px-0 block">About Us</NuxtLink></li>
             <li><NuxtLink to="/gallery" class="md:p-4 py-3 px-0 block">Gallery</NuxtLink></li>
+            <li><NuxtLink to="/pricing" class="md:p-4 py-3 px-0 block">Pricing</NuxtLink></li>
             <li><NuxtLink to="/contact" class="md:p-4 py-3 px-0 block md:mb-0 mb-2">Contact Us</NuxtLink></li>
           </ul>
         </nav>
