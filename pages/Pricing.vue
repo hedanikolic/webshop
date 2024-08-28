@@ -1,11 +1,11 @@
 <template>
-  <div class="min-h-screen flex flex-col pt-32">
+  <div class="min-h-screen flex flex-col md:pt-32">
     <Navbar />
-    <div class="flex-grow">
-      <div class="container mx-auto p-2 justify-center h-screen">
-        <div class="grid md:px-48 grid-cols-2 md:gap-24">
+    <div class="min-h-screen">
+      <div class="container mx-auto p-2 justify-center">
+        <div class="grid scale-75 px-16 gap-16 md:px-48 md:grid-cols-2 md:gap-24">
           <div class="flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
-            <div class="px-6 py-8 flex-grow">
+            <div class="px-6 py-8">
               <h2 class="text-3xl font-semibold text-gray-800 mb-2 pl-2">Standard</h2>
               <p class="text-gray-600 mb-4 pl-2">More affordable but equally beautiful!</p>
               <div class="text-3xl font-bold text-gray-800 mb-8 pl-2">10-20€<span

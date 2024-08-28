@@ -27,7 +27,7 @@
                   </div>
                   <div class="mb-4 px-8">
                     <label for="number" class="block text-xs font-medium text-gray-700">PHONE NUMBER</label>
-                    <input id="number" name="number" class="mt-1 block w-full px-3 py-2 bg-white border shadow-sm border-gray-300 rounded-md focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm" placeholder="Your phone number">
+                    <input type="tel" pattern="[0-9]*" inputmode="numeric" id="number" name="number" class="mt-1 block w-full px-3 py-2 bg-white border shadow-sm border-gray-300 rounded-md focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm" placeholder="Your phone number">
                   </div>
                   <div class="grid md:grid-cols-3 flex justify-between px-8 py-2 gap-8">
                     <div class="flex flex-col col-span-2 gap-4">
@@ -83,11 +83,15 @@
                   <div class="flex flex-col justify-between p-4">
                     <div class="flex flex-row items-center p-4">
                       <img src="~/assets/mail.png" alt="Mail" style="height: 20px; width: 20px;" />
-                      <span class="ml-4">earcurations@gmail.com</span>
+                      <a href="mailto:earcurations@gmail.com" class="ml-4 hover:text-blue-600 underline">
+                        earcurations@gmail.com
+                      </a>
                     </div>
                     <div class="flex flex-row items-center p-4">
                       <img src="~/assets/phone.png" alt="Phone" style="height: 20px; width: 20px;" />
-                      <span class="ml-4">+123 456 789</span>
+                      <a href="tel:+123456789" class="ml-4 hover:text-blue-600 underline">
+                        +123 456 789
+                      </a>
                     </div>
                     <div class="flex flex-row items-center p-4">
                       <img src="~/assets/clock.png" alt="Hours" style="height: 20px; width: 20px;" />
