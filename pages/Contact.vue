@@ -1,10 +1,10 @@
 <template>
-    <div class="min-h-screen flex flex-col pt-32">
+    <div class="min-h-screen flex flex-col pt-24 md:pt-32">
         <Navbar />
    
         <div class="min-h-screen">
           <div class="container mx-auto p-8 justify-center">
-            <div class="grid px-32 md:grid-cols-5 gap-12">
+            <div class="grid lg:px-32 md:grid-cols-5 gap-12">
               <!-- Left column -->
               <div class="bg-white md:col-span-3 p-8 rounded-lg shadow-lg">
                 <h2 class="font-semibold text-center text-2xl pt-4 pb-1">Ready for your curation?</h2>

@@ -1,71 +1,71 @@
 <template>
-  <div class="min-h-screen flex flex-col md:pt-32">
+  <div class="flex flex-col pt-24">
     <Navbar />
-    <div class="min-h-screen">
-      <div class="container mx-auto p-2 justify-center">
-        <div class="grid scale-75 px-16 gap-16 md:px-48 md:grid-cols-2 md:gap-24">
-          <div class="flex flex-col h-full bg-white rounded-3xl overflow-hidden shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
-            <div class="px-6 py-8">
-              <h2 class="text-3xl font-semibold text-gray-800 mb-2 pl-2">Standard</h2>
-              <p class="text-gray-600 mb-4 pl-2">More affordable but equally beautiful!</p>
-              <div class="text-3xl font-bold text-gray-800 mb-8 pl-2">10-20€<span
-                  class="text-lg font-normal text-gray-600 pl-2">/piece of jewelry</span></div>
-              <ul class="text-gray-600 px-4">
-                <li class="flex items-center mb-4 gap-4">
+    <div class="p-1">
+      <div class="container mx-auto p-4 justify-center">
+        <div class="grid gap-8 md:px-64 md:gap-12 md:grid-cols-2">
+          <div class="flex flex-col h-full bg-white rounded-2xl overflow-hidden shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
+            <div class="px-4 py-6">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2 pl-2">Standard</h2>
+              <p class="text-gray-600 mb-4 pl-2 text-sm">More affordable but equally beautiful!</p> 
+              <div class="text-2xl font-semibold text-gray-800 mb-8 pl-2">10-20€<span
+                  class="text-base font-normal text-gray-600 pl-2">/piece of jewelry</span></div>
+              <ul class="text-gray-600 text-md px-2">
+                <li class="flex items-center mb-3 gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Silver, gold and mixed metal colorway
                 </li>
-                <li class="flex items-center mb-4 gap-4">
+                <li class="flex items-center mb-3 gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Jewelry made of titanium, stainless steel, gold plated stainless steel and zirconia
                 </li>
-                <li class="flex items-center mb-4 gap-4">
+                <li class="flex items-center mb-3 gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Personal consultation and advising
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="flex items-center gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Up to 3 custom sketches and ideas
                 </li>
               </ul>
             </div>
-            <div class="px-6 pb-8">
+            <div class="mt-auto px-4 pb-6">
               <a href="/Contact" class="flex justify-center">
                 <button
-                  class="text-white font-semibold py-2 px-4 rounded-full bg-blue-500 transition duration-200 ease-in-out transform hover:scale-105">
+                  class="text-white font-semibold py-2 px-3 rounded-full bg-blue-500 transition duration-200 ease-in-out transform hover:scale-105">
                   Get Started
                 </button>
               </a>
             </div>
           </div>
 
-          <div class="bg-white rounded-3xl overflow-hidden shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
-            <div class="px-6 py-8">
-              <h2 class="text-3xl font-semibold text-gray-800 mb-2 pl-2">Luxury</h2>
-              <p class="text-gray-600 mb-4 pl-2">High quallity jewelry pieces!</p>
-              <div class="text-3xl font-bold text-gray-800 mb-8 pl-2">20-150€<span
-                  class="text-lg font-normal text-gray-600 pl-2">/piece of jewelry</span></div>
-              <ul class="text-gray-600 px-4">
-                <li class="flex items-center mb-4 gap-4">
+          <div class="bg-white rounded-2xl overflow-hidden shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
+            <div class="px-4 py-6">
+              <h2 class="text-2xl font-semibold text-gray-800 mb-2 pl-2">Luxury</h2>
+              <p class="text-gray-600 mb-4 pl-2 text-sm">High quallity jewelry pieces!</p>
+              <div class="text-2xl font-semibold text-gray-800 mb-8 pl-2">20-150€<span
+                  class="text-base font-normal text-gray-600 pl-2">/piece of jewelry</span></div>
+              <ul class="text-gray-600 text-md px-2">
+                <li class="flex items-center mb-3 gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Silver, gold and mixed metal colorway
                 </li>
-                <li class="flex items-center mb-4 gap-4">
+                <li class="flex items-center mb-3 gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Jewelry made of titanium, stainless steel, gold plated stainless steel, zirconia + sterling silver 925, 14K gold and precious stones
                 </li>
-                <li class="flex items-center mb-4 gap-4">
+                <li class="flex items-center mb-3 gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Personal consultation and advising
                 </li>
-                <li class="flex items-center gap-4">
+                <li class="flex items-center gap-2">
                   <img src="~/assets/check.png" class="w-4 h-4">
                   Unlimited number of custom sketches and ideas
                 </li>
               </ul>
-              <div class="flex justify-center">
+              <div class="flex mt-auto justify-center">
                 <a href="/Contact">
-                  <button class="mt-10 text-white font-semibold py-2 px-4 rounded-full transition duration-200 ease-in-out transform hover:scale-105">
+                  <button class="flex justify-end mt-8 text-white font-semibold py-2 px-3 rounded-full transition duration-200 ease-in-out transform hover:scale-105">
                     Get Started
                   </button>
                 </a>
@@ -73,16 +73,17 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col justify-center mt-10">
-          <p class="text-center text-gray-600">Please have in mind that there is a deposit of 30€ before the first sketch is made. That amount will be deducted from the final price.</p>
-          <p class="text-center text-gray-600">You are welcome to change the pricing option at any time or to request pieces from the other category of jewelry.</p>
-          <p class="text-center text-gray-600">If you have any questions about the pricing, feel free to contact us.</p>
-        </div>
       </div>
+    </div>
+    <div class="flex flex-col justify-center pb-10 px-8 md:pt-2">
+      <p class="text-center text-gray-600">Please have in mind that there is a deposit of 30€ before the first sketch is made. That amount will be deducted from the final price.</p>
+      <p class="text-center text-gray-600 text-md">You are welcome to change the pricing option at any time or to request pieces from the other category of jewelry.</p>
+      <p class="text-center text-gray-600 text-md">If you have any questions about the pricing, feel free to contact us.</p>
     </div>
     <Footer />
   </div>
 </template>
+
   
 <script>
 
