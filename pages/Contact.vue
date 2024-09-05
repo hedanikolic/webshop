@@ -1,10 +1,10 @@
 <template>
-    <div class="min-h-screen flex flex-col pt-24 md:pt-32">
+    <div class="min-h-screen flex flex-col flex-grow pt-24 md:pt-32">
         <Navbar />
    
         <div class="min-h-screen">
-          <div class="container mx-auto p-8 justify-center">
-            <div class="grid lg:px-32 md:grid-cols-5 gap-12">
+          <div class="container mx-auto p-8 justify-center w-full">
+            <div class="grid xl:px-32 md:grid-cols-5 gap-12">
               <!-- Left column -->
               <div class="bg-white md:col-span-3 p-8 rounded-lg shadow-lg">
                 <h2 class="font-semibold text-center text-2xl pt-4 pb-1">Ready for your curation?</h2>
@@ -27,7 +27,7 @@
                   </div>
                   <div class="mb-4 px-8">
                     <label for="number" class="block text-xs font-medium text-gray-700">PHONE NUMBER</label>
-                    <input type="tel" pattern="[0-9,+]*" inputmode="numeric" id="number" name="number" class="mt-1 block w-full px-3 py-2 bg-white border shadow-sm border-gray-300 rounded-md focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm" placeholder="Your phone number">
+                    <input type="tel" pattern="[+,0-9]*" inputmode="numeric" id="number" name="number" class="mt-1 block w-full px-3 py-2 bg-white border shadow-sm border-gray-300 rounded-md focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm" placeholder="Your phone number">
                   </div>
                   <div class="grid md:grid-cols-3 flex justify-between px-8 py-2 gap-8">
                     <div class="flex flex-col col-span-2 gap-4">
@@ -82,8 +82,8 @@
                   <p class="text-md px-4 pb-8">Send them our way through e-mail or give us a call during our working hours!</p>
                   <div class="flex flex-col justify-between p-4">
                     <div class="flex flex-row items-center p-4">
-                      <img src="~/assets/mail.png" alt="Mail" style="height: 20px; width: 20px;" />
-                      <a href="mailto:earcurations@gmail.com" class="ml-4 hover:text-blue-600 underline">
+                      <img src="~/assets/mail.png" alt="Mail" class="md:-ml-6 lg:ml-0" style="height: 20px; width: 20px;" />
+                      <a href="mailto:earcurations@gmail.com" class="ml-4 md:text-sm lg:text-base hover:text-blue-600 underline">
                         earcurations@gmail.com
                       </a>
                     </div>
