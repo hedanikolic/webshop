@@ -39,13 +39,17 @@
                         </div>
                     </div>
                     <div class="hidden md:flex justify-center">
-                        <img src="/assets/carousel1/before.jpeg" alt="Before" class="max-w-xs max-h-xs rounded-lg shadow-2xl">
+                        <div class="w-64 h-auto max-w-xs">
+                            <img src="/assets/carousel1/before.jpeg" alt="Before" class="max-w-xs max-h-xs rounded-lg shadow-2xl">
+                        </div>
                     </div>
                 </div>
 
-                <div class="py-8 px-2 md:px-8 lg:mx-8 flex flex-col md:flex-row md:space-x-12">
-                    <div class="hidden md:flex justify-center">
-                        <img src="/assets/carousel1/sketch.jpeg" alt="Sketch" class="max-w-xs max-h-xs rounded-lg shadow-2xl">
+                <div class="py-8 px-2 lg:px-8 lg:mx-8 flex flex-col md:flex-row lg:space-x-12">
+                    <div class="hidden md:flex justify-center pr-8">
+                        <div class="w-full h-auto  object-cover">
+                            <img src="/assets/carousel1/sketch.jpeg" alt="Sketch" class="md:-ml-8 max-w-xs max-h-xs rounded-lg shadow-2xl">
+                        </div>
                     </div>
 
                     <div class="flex flex-col space-y-16 md:flex-grow text-lg">
@@ -110,7 +114,9 @@
                         </div>
                     </div>
                     <div class="hidden md:flex justify-center">
-                        <img src="/assets/carousel1/after.jpeg" alt="After" class="max-w-xs max-h-xs rounded-lg shadow-2xl">
+                        <div class="w-full h-auto object-cover">
+                            <img src="/assets/carousel1/after.jpeg" alt="After" class="max-w-xs max-h-xs rounded-lg shadow-2xl">
+                        </div>
                     </div>
                 </div>
                 <div class="flex-col justify-center py-8">

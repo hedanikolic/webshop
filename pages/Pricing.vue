@@ -3,7 +3,7 @@
     <Navbar />
     <div class="p-1">
       <div class="container mx-auto p-4 justify-center">
-        <div class="grid gap-8 md:px-64 md:gap-12 md:grid-cols-2">
+        <div class="grid gap-8 sm:px-24 md:px-12 lg:px-64 md:gap-12 md:grid-cols-2">
           <div class="flex flex-col h-full bg-white rounded-2xl overflow-hidden shadow-lg transition duration-200 ease-in-out transform hover:scale-105">
             <div class="px-4 py-6">
               <h2 class="text-2xl font-semibold text-gray-800 mb-2 pl-2">Standard</h2>

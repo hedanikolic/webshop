@@ -27,7 +27,7 @@
                   </div>
                   <div class="mb-4 px-8">
                     <label for="number" class="block text-xs font-medium text-gray-700">PHONE NUMBER</label>
-                    <input type="tel" pattern="[0-9]*" inputmode="numeric" id="number" name="number" class="mt-1 block w-full px-3 py-2 bg-white border shadow-sm border-gray-300 rounded-md focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm" placeholder="Your phone number">
+                    <input type="tel" pattern="[0-9,+]*" inputmode="numeric" id="number" name="number" class="mt-1 block w-full px-3 py-2 bg-white border shadow-sm border-gray-300 rounded-md focus:outline-none focus:ring-gray-900 focus:border-gray-900 sm:text-sm" placeholder="Your phone number">
                   </div>
                   <div class="grid md:grid-cols-3 flex justify-between px-8 py-2 gap-8">
                     <div class="flex flex-col col-span-2 gap-4">
