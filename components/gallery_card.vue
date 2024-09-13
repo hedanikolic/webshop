@@ -5,7 +5,7 @@
       </div>
       <!-- Carousel modal -->
       <div v-if="isCarouselOpen" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50" @click="closeCarousel">
-        <div class="bg-gray-200 p-4 rounded-lg shadow-2xl" @click.stop>
+        <div class="bg-gray-200 p-4 rounded-lg shadow-2xl md:scale-150" @click.stop>
             <Carousel :carouselFolder= imageFolder />
         </div>
         </div>

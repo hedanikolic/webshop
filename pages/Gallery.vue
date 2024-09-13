@@ -11,35 +11,35 @@
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel2'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel3'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel4'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-            <Gallery_card :imageFolder="'carousel1'" />
+            <Gallery_card :imageFolder="'carousel5'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel6'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel7'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel8'" />
             </div>
 
             <div class="p-1 md:p-4 sm:w-1/2 md:w-full mx-auto">
-                <Gallery_card :imageFolder="'carousel1'" />
+                <Gallery_card :imageFolder="'carousel9'" />
             </div>
 
         </div>
